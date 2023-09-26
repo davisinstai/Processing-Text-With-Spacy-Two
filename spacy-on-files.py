@@ -18,26 +18,26 @@ try:
     # ask the user to input a zip file or pattern
     pattern = 
     # if pattern ends with '.zip'
-    if 
+    if ...
         # make a ZipFile of pattern
         zipf = zipfile.ZipFile(pattern)
         # for each file_name in the zip file
         for file_name in zipf.namelist():
             # print file_name
 
-            # open file_name as f
-            with zipf.open(file_name) as f:
+            # open file_name as f; refer to the notebook!
+            with ... f:
                 # get all the text
                 text = ''.join([x.decode('utf-8') for x in f.readlines()])
                 # run spacy on the text; put the result in the 'corpus' dictionary using file_name as the key
 
     else: # pattern doesn't end with '.zip'
-        # get everything matching file_name using glob
+        # get everything matching file_name using glob; refer to the notebook!
         for file_name in glob.glob(pattern):
             # print file_name
 
             # open file_name as f
-            with open(file_name, encoding='utf-8') as f:
+            with ... f:
                 # get all the text
                 text = ''.join(f.readlines())
                 # run spacy on the text; put the result in the 'corpus' dictionary using file_name as the key
@@ -50,16 +50,16 @@ except Exception as e:
 while True:
     # print the corpus keys
 
-    # set the document name to something that doesn't exist
+    # set the document name to something that doesn't exist, like the empty string
 
     # until the document given by the user is in `corpus`
     while document not in corpus:
         # ask the user for a value for `document`
 
-    # set the goal to something that doesn't exist
+    # set the goal to something that doesn't exist, like the empty string
 
     # until the goal is 'doc', 'table' or 'statistics'
-    while goal not in ['doc', 'table', 'statistics']:
+    while ...:
         # ask the user for a value for 'goal' from 'doc', 'table' or 'statistics'; don't forget to escape!
 
         # if the goal is 'doc'
@@ -91,12 +91,12 @@ while True:
 
                 # if the token's part of speech is not 'SPACE'
                 if :
-                    # add the the text, lemma, coarse- and fine-grained parts of speech, word shape and morphology for this token to `tokens_table`; don't forget the newline character!
+                    # add the the text, lemma, coarse- and fine-grained parts of speech, word shape and morphology for this token to `tokens_table`; don't forget the newline character! refer to project 2a
                     tokens_table  = 
             # Make the entities table
             entities_table = "| Text | Type |\n| ---- | ---- |\n"
             # walk over the entities in the document
-                # add the text and label for this entity to 'entities_table'; don't forget the newline character!
+                # add the text and label for this entity to 'entities_table'; don't forget the newline character! refer to project 2a
                 entities_table = 
             # open an output file, named after the document with _table.md appended
             with ...   outf:

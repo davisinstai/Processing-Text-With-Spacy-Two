@@ -21,10 +21,10 @@ The goals of this assignment are:
 * To review basic NLP tasks for words using dictionaries, sets, lists and file read/write.
 
 Here are the steps you should do to successfully complete this project:
-1. From moodle, accept the assignment.
-2. Open and set up a code space (install a python kernal and select it).
-3. Complete the notebook and commit it to Github. Make sure to answer all questions, and to commit the notebook in a "run" state!
-4. Edit the README.md file. Provide your name, your class year, links to/descriptions of any extensions and a list of resources. Make sure to paste the output from running spacy-on-files.py!
+1. From moodle, accept the assignment. Open and set up a code space (install a python kernal and select it).
+2. Complete the notebook and commit it to Github. Make sure to answer all questions, and to commit the notebook in a "run" state!
+3. I wrote the comments; you write the code! Complete spacy-on-files.py. Run it on the command line using % `python spacy-on-nlp.py`. Run it once using `c*.txt` as the file pattern and once using `files.zip` as the file pattern. For the latter case, use `ark:__27927_phznswfkrxz` as the document you want analyses for. Commit the `doc`, `table` and `statistics` for each of those documents.
+4. Edit the README.md file. Provide your name, your class year, links to/descriptions of any extensions and a list of resources. 
 5. Commit your code often. We will take the last commit before the deadline as your submission of the project.
 
 For extra credit:
