@@ -1,4 +1,4 @@
-# Processing-Text-With-Spacy-Two
+# Processing Text with Spacy (Part Two)
 
 # Project 2c
 
