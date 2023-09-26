@@ -31,6 +31,7 @@ For extra credit:
 * Read the spaCy docs (https://spacy.io/usage/models). Figure out how to make spaCy work for another language. Add a starter question asking the user to indicate the language. 
 * We are doing all of this on the command line. If you got mercury web apps running, make some of this work in mercury.
 * Take a look at the [spaCy universe pdf reader](https://spacy.io/universe/project/spacypdfreader/). Download the pdfs for at least two of the papers in our corpus and load them using this reader. Does this reader give cleaner text then constellate, or not? Justify your answer.
+* Look closely at the documents in `files.zip`. Which of the contents are not really part of the text? How might you remove those contents using techniques we learn in class?
 * Your other ideas are welcome! If you'd like to discuss one with Dr Stent, feel free.
 
 
