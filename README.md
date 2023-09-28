@@ -30,7 +30,7 @@ Here are the steps you should do to successfully complete this project:
 Possible extensions (from least points to most points):
 * Extend the code to let the user choose the language of the input text.
 * Make the code more 'pythonic'.
-  * Change at least two for loops into *list comprehensions* (probably the ones that process entities).
+  * Change at least one for loop into a *list comprehensions* (probably one that processes entities).
   * Get familiar with the great operator `+=`. Change the code lines that concatenate strings to `+=`.  
 * We are doing all of this on the command line. If you got mercury web apps running, make some of this work in mercury.
 * Look closely at the documents in `files.zip`. Which of the contents are not really part of the text? How might you remove those contents?
